@@ -69,6 +69,10 @@ body {
   padding: 1em 2em;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background: var(--bg02);
   position: relative;
@@ -114,4 +118,21 @@ header .hero .hero-text .box img {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
+}
+header a {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 800;
+  position: absolute;
+}
+header .work {
+  right: 2em;
+  top: 2em;
+}
+header .about {
+  right: 2em;
+  bottom: 3em;
+}
+header .contact {
+  bottom: 3em;
 }/*# sourceMappingURL=style.css.map */
