@@ -1,5 +1,10 @@
-@forward 'abstracts/variable';
+@import 'abstracts/variable';
+@import 'abstracts/mixins';
 
-@forward 'base/base';
+@import 'base/reset';
 
-@forward 'layouts/header';
+@import 'layouts/header';
+
+@import 'components/button';
+
+@import 'pages/about';

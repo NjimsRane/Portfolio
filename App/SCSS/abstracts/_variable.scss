@@ -6,6 +6,9 @@
     --bg02:linear-gradient(135deg,
             #2F3439,
             #1D1F23);
+    --bg021:linear-gradient(135deg,
+            #d2dce7,
+            #d5dff1);
     --bg03:linear-gradient(135deg,
             #2C3136,
             #1D2023);
@@ -53,6 +56,9 @@
         10px 10px 12px #151618,
         -10px -10px 12px #2C3136,
         inset -4px -4px 8px #33353B,
-        inset 4px 4px 8px #151618;
+        inset 4px 4px 8px #151618
+    ;
+    /*transition */ 
+    --transition:all 0.5s linear;
         
 }
